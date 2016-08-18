@@ -1,0 +1,24 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "wechat public account",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "dependencies": {
+    "express": "~3.1.0",
+    "log4js": "^0.6.27",
+    "request": "^2.63.0",
+    "socket.io": "*",
+    "xmldom": "^0.1.19",
+    "xpath.js": "^1.0.6"
+  },
+  
+  "author": "Lei Chen <chenleiwhu@gmail.com>",
+  "license": "ISC"
+}
