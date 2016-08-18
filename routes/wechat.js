@@ -1,7 +1,7 @@
 var url = require('url');
 var crypto = require('crypto');
 var wechatMsg = require('../wechat/wechatMsg');
-var TOKEN = 'jarvis';
+var TOKEN = 'yourtoken';
 
 exports.getService = function (req, res) {
     var reqObj = url.parse(req.url, true);
